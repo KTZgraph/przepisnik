@@ -3,3 +3,8 @@
 - poskrapowac informacje o produktach
 - kalorie do posiłoów. całego dnia, całego tygodnia na podstawie produktów
 - informacje o zwartości żelaza etc
+
+
+# Wyszukiwarka z tagami
+
+-  https://www.youtube.com/watch?v=l8Jd7Ub4yJE
