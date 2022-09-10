@@ -1,0 +1,37 @@
+.search-form {
+  margin-bottom: 50px;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+
+    .form__input {
+      label {
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      input {
+        padding: 0 2px;
+      }
+
+      .input-multiple {
+        margin-left: 20px;
+        input:first-child {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    button {
+      background-color: purple;
+      color: white;
+      padding: 7px 15px;
+      border: none;
+      border-radius: 15px;
+    }
+  }
+}
