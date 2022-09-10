@@ -69,7 +69,7 @@ const SearchForm = () => {
             <input type="text" id="family" name="family" ref={familyRef} />
           </div>
         </div>
-        <div className="row u-flex-end">
+        <div className="u-flex-end">
           <button type="submit" className="action">
             Search
           </button>

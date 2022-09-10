@@ -4,12 +4,20 @@
   .u-flex-end {
     display: flex;
     justify-content: flex-end;
-    background-color: pink;
+    align-items: flex-start;
   }
 
   .icon {
     font-size: 30px;
     color: grey;
+  }
+
+  .action {
+    background-color: purple;
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 15px;
   }
 
   .row {
@@ -36,14 +44,6 @@
           margin-right: 10px;
         }
       }
-    }
-
-    button {
-      background-color: purple;
-      color: white;
-      padding: 7px 15px;
-      border: none;
-      border-radius: 15px;
     }
   }
 }
