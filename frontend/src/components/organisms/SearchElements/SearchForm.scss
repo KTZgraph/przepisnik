@@ -1,6 +1,16 @@
 .search-form {
   margin-bottom: 50px;
 
+  .options {
+    display: flex;
+    justify-content: flex-end;
+
+    .icon {
+      font-size: 30px;
+      color: grey;
+    }
+  }
+
   .row {
     display: flex;
     justify-content: space-between;
