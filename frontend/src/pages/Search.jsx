@@ -1,7 +1,6 @@
-import SearchForm from "../components/organisms/Forms/SearchForm";
-import SearchTable from "../components/organisms/Tables/SearchTable";
+import SearchForm from "../components/organisms/SearchElements/SearchForm";
+import SearchTable from "../components/organisms/SearchElements/SearchTable";
 import SearchTemplate from "../components/templates/SearchTemplate";
-
 import "./Search.scss";
 
 const Search = () => {
@@ -9,7 +8,7 @@ const Search = () => {
     <SearchTemplate subtitle="Szukaj produktu" className="search">
       <SearchForm />
       <div className="search-result">
-        <SearchTable />
+        <SearchTable className="search-table" />
       </div>
     </SearchTemplate>
   );

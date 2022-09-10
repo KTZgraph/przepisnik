@@ -1,0 +1,17 @@
+@import "../../../styles/main.scss";
+
+.navbar {
+  height: $navbar-max-height;
+  background-color: rgb(245, 206, 206);
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+  font-size: 1.4rem;
+  @include box-shadow-mixin;
+
+  .items {
+    .action {
+      margin-left: 15px;
+    }
+  }
+}
