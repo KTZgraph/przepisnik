@@ -1,8 +1,10 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Products from "./products/pages/Products";
-import Breakfasts from "./breakfasts/pages/Breakfasts";
-import SecondBreakfasts from "./second-breakfasts/pages/SecondBreakfasts";
-import Sidebar from "./shared/components/Navigation/Sidebar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Products from "./pages/Products";
+import Breakfasts from "./pages/Breakfasts";
+import SecondBreakfasts from "./pages/SecondBreakfasts";
+import Search from "./pages/Search";
+import Sidebar from "./components/organisms/Navigation/Sidebar";
+import "./App.scss";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/">
+              <Route index element={<Search />} />
               <Route path="products" element={<Products />} />
               <Route path="breakfasts" element={<Breakfasts />} />
               <Route path="second-breakfasts" element={<SecondBreakfasts />} />

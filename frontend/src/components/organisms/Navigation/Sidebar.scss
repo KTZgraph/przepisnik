@@ -1,0 +1,9 @@
+@import "../../../styles/main.scss";
+
+.sidebar {
+  background-color: pink;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+}

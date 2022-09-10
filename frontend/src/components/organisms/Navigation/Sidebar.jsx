@@ -1,5 +1,6 @@
 import DashboardRoundedIcon from "@mui/icons-material/DashboardRounded";
 import { Link } from "react-router-dom";
+import "./Sidebar.scss";
 
 const Sidebar = () => {
   return (

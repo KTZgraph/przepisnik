@@ -1,0 +1,22 @@
+@import "../styles/main.scss";
+
+.search {
+  display: flex;
+  flex-direction: column;
+
+  .search__form,
+  .search__result {
+    padding: 15px;
+    border-radius: 20px;
+    @include box-shadow-mixin;
+  }
+
+  .search__form {
+    min-height: 30vh;
+    margin-bottom: 50px;
+  }
+
+  .search__result {
+    min-height: 40vh;
+  }
+}
