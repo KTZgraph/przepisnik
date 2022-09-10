@@ -1,4 +1,4 @@
-import { products } from "../../data/producs";
+import { products } from "../../../data/producs";
 
 const ProductItem = ({ productId }) => {
   const product = products.find((p) => p.id === productId);

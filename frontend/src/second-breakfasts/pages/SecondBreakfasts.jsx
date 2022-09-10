@@ -1,4 +1,4 @@
-import MealItem from "../../shared/components/MealItem";
+import MealItem from "../../shared/components/Recipe/MealItem";
 import { secondBreakfasts } from "../../data/second-breakfast";
 
 const SecondBreakfasts = () => {
