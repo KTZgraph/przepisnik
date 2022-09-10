@@ -1,18 +1,25 @@
+import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import "./SearchTable.scss";
 
 const SearchTable = () => {
+  const handleClick = () => {
+    console.log("Usuwanie klik");
+  };
+
   return (
     <div className="search-table">
       {/* nagłowek tabelki */}
       <div className="table-row table-header">
-        <div className="table-row-item u-flex-grow2 row-item-file">file</div>
-        <div className="table-row-item row-item-added-by">added by</div>
-        <div className="table-row-item">QA By</div>
-        <div className="table-row-item">CVE</div>
-        <div className="table-row-item">Last Update</div>
-        <div className="table-row-item">GIT (.csharp / .json)</div>
-        <div className="table-row-item">GIT (.yaml)</div>
-        <div className="table-row-item">
+        <div className="table-row-item cell-file u-flex-grow2">file</div>
+        <div className="table-row-item cell-added-by">added by</div>
+        <div className="table-row-item cell-qa-by">QA By</div>
+        <div className="table-row-item cell-cve">CVE</div>
+        <div className="table-row-item cell-last-update">Last Update</div>
+        <div className="table-row-item cell-git-scharp">
+          GIT (.csharp / .json)
+        </div>
+        <div className="table-row-item cell-git-yaml">GIT (.yaml)</div>
+        <div className="table-row-item cell-delete">
           Delete
           {/* <button>Delete</button> */}
         </div>
@@ -20,38 +27,41 @@ const SearchTable = () => {
       {/* wiersze tabelki */}
       <div className="table-row">
         <div
-          className="table-row-item u-flex-grow2 row-item-file"
+          className="table-row-item cell-file u-flex-grow2"
           data-header="file"
         >
           {/* https://pl.wikipedia.org/wiki/Renesans#/media/Plik:Leonardo_self.jpg */}
           https://pl.wikipedia.org/wiki/Renesans#/media/Plik:Leonardo_self.jpg
         </div>
-        <div
-          className="table-row-item row-item-added-by"
-          data-header="added by"
-        >
+        <div className="table-row-item cell-added-by" data-header="added by">
           Janusz
         </div>
-        <div className="table-row-item" data-header="QA By">
+        <div className="table-row-item cell-qa-by" data-header="QA By">
           Grażynka
         </div>
-        <div className="table-row-item" data-header="CVE">
+        <div className="table-row-item cell-cve" data-header="CVE">
           CVE-2022-27909
         </div>
-        <div className="table-row-item" data-header="Last Update">
+        <div
+          className="table-row-item cell-last-update"
+          data-header="Last Update"
+        >
           02-06-2022 12:48:41
         </div>
-        <div className="table-row-item" data-header="GIT (.csharp / .json)">
+        <div
+          className="table-row-item cell-git-scharp"
+          data-header="GIT (.csharp / .json)"
+        >
           {/* Nonexistent / Nonexistent czerwone */}
           Nonexistent / Nonexistent
         </div>
-        <div className="table-row-item" data-header="GIT (.yaml)">
+        <div className="table-row-item cell-git-yaml" data-header="GIT (.yaml)">
           {/* Nonexistent / Nonexistent czerwone */}
           Nonexistent
         </div>
-        <div className="table-row-item" data-header="Delete">
+        <div className="table-row-item cell-delete" data-header="Delete">
           {/* Nonexistent / Nonexistent czerwone */}
-          <input type="checkbox" id="delete" name="delete" />
+          <DeleteForeverIcon className="icon" onClick={handleClick} />
         </div>
       </div>
     </div>

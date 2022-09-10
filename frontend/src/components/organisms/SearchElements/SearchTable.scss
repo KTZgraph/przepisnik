@@ -7,6 +7,11 @@
   line-height: 1.5;
   justify-content: space-between;
 
+  .icon {
+    font-size: 30px;
+    color: orangered;
+  }
+
   .table-header {
     font-weight: 700;
     background-color: lightblue;
@@ -36,16 +41,43 @@
     border: 1px solid black;
   }
 
-  // minimalne szerokości kolumn
-  .row-item-file {
+  // KOMórKI
+  .cell-file {
     min-width: 200px;
     max-width: 300px;
+    background-color: lightblue;
   }
 
-  .row-item-added-by {
+  .cell-added-by {
     width: 50px;
+    background-color: pink;
   }
 
+  .cell-qa-by {
+    background-color: purple;
+  }
+
+  .cell-cve {
+    background-color: green;
+  }
+
+  .cell-last-update {
+    background-color: lightcyan;
+  }
+
+  .cell-git-scharp {
+    background-color: lightgrey;
+  }
+
+  .cell-git-yaml {
+    background-color: lightcoral;
+  }
+
+  .cell-delete {
+    background-color: yellowgreen;
+  }
+
+  // flex boxy
   .u-flex-grow1 {
     flex-grow: 0.5;
   }
