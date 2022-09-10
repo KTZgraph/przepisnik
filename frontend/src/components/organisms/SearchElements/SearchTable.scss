@@ -7,18 +7,54 @@
   line-height: 1.5;
   justify-content: space-between;
 
+  .table-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 50px;
+    font-size: 1.2rem;
+    text-transform: none;
+
+    .default {
+      display: flex;
+      justify-items: flex-end;
+
+      .page-input {
+        flex-grow: 2;
+        label {
+          margin-right: 15px;
+        }
+
+        input {
+          width: 30px;
+        }
+      }
+
+      .icon {
+        font-size: 30px;
+        color: black;
+      }
+    }
+
+    // pastylki opcje
+    .expanded-options {
+      height: 100px;
+    }
+  }
+
   .icon {
     font-size: 30px;
     color: orangered;
   }
 
+  // nagłówek
   .table-header {
     font-weight: 700;
-    background-color: lightblue;
     font-size: 1.4rem;
     text-transform: uppercase;
   }
 
+  // wiersz
   .table-row {
     display: flex;
     flex-flow: row nowrap;

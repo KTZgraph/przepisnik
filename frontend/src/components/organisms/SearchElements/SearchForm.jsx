@@ -16,6 +16,7 @@ const SearchForm = () => {
   const vulnerabilityDateBetweenStartRef = useRef();
   const vulnerabilityDateBetweenEndRef = useRef();
   const gitStatusRef = useRef();
+  const cveRef = useRef();
 
   const handleClick = () => {
     setExpanded(!expanded);
@@ -35,6 +36,7 @@ const SearchForm = () => {
     const vulnerabilityDateBetweenEnd =
       vulnerabilityDateBetweenEndRef.current.value;
     const gitStatus = gitStatusRef.current.value;
+    const cve = cveRef.current.value;
 
     console.log("keyword:", keyword);
     console.log("family:", family);
@@ -49,6 +51,7 @@ const SearchForm = () => {
     );
     console.log("vulnerabilityDateBetweenEnd:", vulnerabilityDateBetweenEnd);
     console.log("status:", status);
+    console.log("cve:", cve);
   };
 
   if (!expanded) {
@@ -167,6 +170,10 @@ const SearchForm = () => {
               name="gitStatus"
               ref={gitStatusRef}
             />
+          </div>
+          <div className="form__input">
+            <label htmlFor="cve">CVE:</label>
+            <input type="checkbox" id="cve" name="cve" ref={cveRef} />
           </div>
           <button type="submit" className="action">
             Search

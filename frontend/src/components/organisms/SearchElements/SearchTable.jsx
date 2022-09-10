@@ -1,5 +1,46 @@
+import { useRef, useState } from "react";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ExpandLessIcon from "@mui/icons-material/ExpandLess";
+
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import "./SearchTable.scss";
+
+// TODO CSS grid Table https://codepen.io/gilli/pen/QVaWGR
+
+const TableInfo = () => {
+  const [expanded, setExpanded] = useState(false);
+  const pageNumberRef = useRef();
+
+  const handleClick = () => {
+    setExpanded(!expanded);
+  };
+
+  return (
+    <div className="table-info">
+      <div className="default">
+        <span>4 matching reconds found. You are viewing page 1 od 1.</span>
+        <div className="page-input">
+          <label htmlFor="pageNumber">Go to page:</label>
+          <input
+            type="number"
+            id="pageNumber"
+            name="pageNumber"
+            ref={pageNumberRef}
+          />
+        </div>
+        {/* strzałeczki rozwijania */}
+        <div className="u-flex-end">
+          {expanded ? (
+            <ExpandLessIcon className="icon" onClick={handleClick} />
+          ) : (
+            <ExpandMoreIcon className="icon" onClick={handleClick} />
+          )}
+        </div>
+      </div>
+      {expanded && <div className="expanded-options">expanded-options</div>}
+    </div>
+  );
+};
 
 const SearchTable = () => {
   const handleClick = () => {
@@ -8,6 +49,7 @@ const SearchTable = () => {
 
   return (
     <div className="search-table">
+      <TableInfo />
       {/* nagłowek tabelki */}
       <div className="table-row table-header">
         <div className="table-row-item cell-file u-flex-grow2">file</div>
