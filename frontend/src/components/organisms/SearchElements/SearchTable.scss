@@ -1,3 +1,88 @@
 .search-table {
   background-color: pink;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f2f2f2;
+  font-size: 1rem;
+  line-height: 1.5;
+  justify-content: space-between;
+
+  .table-header {
+    font-weight: 700;
+    background-color: lightblue;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+
+  .table-row {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  // kolorowanie co drugiego wiersza
+  .table-row:nth-of-type(even) {
+    background-color: #ffffff;
+  }
+  .table-row:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+
+  .table-row-item {
+    display: flex;
+    flex-grow: 1;
+    padding: 0.5em 5px;
+    /* border: 1px solid #fff; */
+    word-break: break-word;
+    border: 1px solid black;
+  }
+
+  // minimalne szerokości kolumn
+  .row-item-file {
+    min-width: 200px;
+    max-width: 300px;
+  }
+
+  .row-item-added-by {
+    width: 50px;
+  }
+
+  .u-flex-grow1 {
+    flex-grow: 0.5;
+  }
+
+  .u-flex-grow2 {
+    flex-grow: 2.1;
+  }
+
+  .u-flex-grow3 {
+    flex-grow: 3;
+  }
+
+  .u-flex-grow4 {
+    flex-grow: 4;
+  }
+
+  .u-flex-grow5 {
+    flex-grow: 5;
+  }
+
+  .u-flex-grow6 {
+    flex-grow: 6;
+  }
+
+  .u-flex-grow7 {
+    flex-grow: 7;
+  }
+
+  .u-flex-grow8 {
+    flex-grow: 8;
+  }
+
+  .u-flex-grow9 {
+    flex-grow: 9;
+  }
+
+  .u-flex-grow10 {
+    flex-grow: 10;
+  }
 }
