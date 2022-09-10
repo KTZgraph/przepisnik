@@ -18,35 +18,38 @@ const SearchTable = () => {
         </div>
       </div>
       {/* wiersze tabelki */}
-      <div class="table-row">
+      <div className="table-row">
         <div
-          class="table-row-item u-flex-grow2 row-item-file"
+          className="table-row-item u-flex-grow2 row-item-file"
           data-header="file"
         >
           {/* https://pl.wikipedia.org/wiki/Renesans#/media/Plik:Leonardo_self.jpg */}
           https://pl.wikipedia.org/wiki/Renesans#/media/Plik:Leonardo_self.jpg
         </div>
-        <div class="table-row-item row-item-added-by" data-header="added by">
+        <div
+          className="table-row-item row-item-added-by"
+          data-header="added by"
+        >
           Janusz
         </div>
-        <div class="table-row-item" data-header="QA By">
+        <div className="table-row-item" data-header="QA By">
           Grażynka
         </div>
-        <div class="table-row-item" data-header="CVE">
+        <div className="table-row-item" data-header="CVE">
           CVE-2022-27909
         </div>
-        <div class="table-row-item" data-header="Last Update">
+        <div className="table-row-item" data-header="Last Update">
           02-06-2022 12:48:41
         </div>
-        <div class="table-row-item" data-header="GIT (.csharp / .json)">
+        <div className="table-row-item" data-header="GIT (.csharp / .json)">
           {/* Nonexistent / Nonexistent czerwone */}
           Nonexistent / Nonexistent
         </div>
-        <div class="table-row-item" data-header="GIT (.yaml)">
+        <div className="table-row-item" data-header="GIT (.yaml)">
           {/* Nonexistent / Nonexistent czerwone */}
           Nonexistent
         </div>
-        <div class="table-row-item" data-header="Delete">
+        <div className="table-row-item" data-header="Delete">
           {/* Nonexistent / Nonexistent czerwone */}
           <input type="checkbox" id="delete" name="delete" />
         </div>

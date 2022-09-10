@@ -1,14 +1,15 @@
 .search-form {
   margin-bottom: 50px;
 
-  .options {
+  .u-flex-end {
     display: flex;
     justify-content: flex-end;
+    background-color: pink;
+  }
 
-    .icon {
-      font-size: 30px;
-      color: grey;
-    }
+  .icon {
+    font-size: 30px;
+    color: grey;
   }
 
   .row {

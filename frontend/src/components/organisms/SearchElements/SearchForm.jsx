@@ -54,7 +54,7 @@ const SearchForm = () => {
   if (!expanded) {
     return (
       <form className="search-form" onSubmit={handleSubmit}>
-        <div className="options">
+        <div className="u-flex-end">
           <ExpandMoreIcon className="icon" onClick={handleClick} />
         </div>
         <div className="row">
@@ -69,12 +69,17 @@ const SearchForm = () => {
             <input type="text" id="family" name="family" ref={familyRef} />
           </div>
         </div>
+        <div className="row u-flex-end">
+          <button type="submit" className="action">
+            Search
+          </button>
+        </div>
       </form>
     );
   } else {
     return (
       <form className="search-form" onSubmit={handleSubmit}>
-        <div className="options">
+        <div className="u-flex-end">
           <ExpandLessIcon className="icon" onClick={handleClick} />
         </div>
         <div className="row">
