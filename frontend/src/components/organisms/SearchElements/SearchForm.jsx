@@ -65,8 +65,13 @@ const SearchForm = () => {
             <input type="text" id="keyword" name="keyword" ref={keywordRef} />
           </div>
           <div className="form__input">
-            <label htmlFor="family">Family:</label>
-            <input type="text" id="family" name="family" ref={familyRef} />
+            <label htmlFor="gitStatus">Git status:</label>
+            <input
+              type="text"
+              id="gitStatus"
+              name="gitStatus"
+              ref={gitStatusRef}
+            />
           </div>
         </div>
         <div className="u-flex-end">
