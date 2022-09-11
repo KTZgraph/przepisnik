@@ -4,7 +4,38 @@
 - kalorie do posiłoów. całego dnia, całego tygodnia na podstawie produktów
 - informacje o zwartości żelaza etc
 
-
 # Wyszukiwarka z tagami
 
--  https://www.youtube.com/watch?v=l8Jd7Ub4yJE
+- https://www.youtube.com/watch?v=l8Jd7Ub4yJE
+
+# Tworzenie tabelki
+
+- https://www.youtube.com/watch?v=dYjdzpZv5yc
+
+# Niby responsywan tabelka w czystym html i css
+
+- https://www.youtube.com/watch?v=ZtopjfXhUZI
+
+# Długie
+
+- https://www.youtube.com/watch?v=kLpQyF6JO
+
+# React table with pagination
+
+- https://www.youtube.com/watch?v=kEd81ZirrCY
+
+# React Hooks: Custom useForm Hook do logowania/rejestracji
+
+- https://www.youtube.com/watch?v=VbUmKm6gjtc
+
+# Learn React Hooks: useState & useEffect - Simply Explained!
+
+- https://www.youtube.com/watch?v=iEVcCdbF1WQ
+
+# Hooki
+
+- https://www.youtube.com/watch?v=O6P86uwfdR0&list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h
+
+# pierwszy jest
+
+- https://www.youtube.com/watch?v=FgnxcUQ5vho&list=PLZlA0Gpn_vH_63f0HH-dUtkininO7GO6f
