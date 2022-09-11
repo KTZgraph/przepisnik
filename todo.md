@@ -1,10 +1,14 @@
+# śliczne wyszukiwanie <3 i piękne animacje
+
+- https://www.youtube.com/watch?v=IlnmWntmUns
+
 # autpodpowiadki w searchu
 
 - https://www.youtube.com/watch?v=x7niho285qs
 
-# How To Send Push Notifications With JavaScript POWIADOMINENIA czyty JS  
-- https://www.youtube.com/watch?v=Bm0JjR4kP8w
+# How To Send Push Notifications With JavaScript POWIADOMINENIA czyty JS
 
+- https://www.youtube.com/watch?v=Bm0JjR4kP8w
 
 # serach react advance
 
