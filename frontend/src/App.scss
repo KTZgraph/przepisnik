@@ -1,5 +1,16 @@
 @import "./styles/main.scss";
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
 .App {
   display: flex;
   background-color: rgb(255, 240, 240);

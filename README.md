@@ -39,3 +39,7 @@
 # pierwszy jest
 
 - https://www.youtube.com/watch?v=FgnxcUQ5vho&list=PLZlA0Gpn_vH_63f0HH-dUtkininO7GO6f
+
+# em px rem vh vw vmin vmax
+
+- https://stackoverflow.com/questions/609517/why-em-instead-of-px
