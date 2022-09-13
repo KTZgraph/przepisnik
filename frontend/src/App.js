@@ -9,6 +9,9 @@ import Navbar from "./components/organisms/Navigation/Navbar";
 // tutorials
 import InputWithTags from "./tutorials/InputWithTags";
 
+// moja tabelka
+import MyTable from "./my-table/MyTable";
+
 import "./App.scss";
 
 function App() {
@@ -24,6 +27,7 @@ function App() {
               <Route path="products" element={<Products />} />
               <Route path="breakfasts" element={<Breakfasts />} />
               <Route path="second-breakfasts" element={<SecondBreakfasts />} />
+              <Route path="my-table" element={<MyTable />} />
             </Route>
             <Route path="/tutorials">
               <Route index element={<InputWithTags />} />
